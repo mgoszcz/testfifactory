@@ -1,0 +1,44 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Verify user can open application",
+    "url": "https://testifactory/cases/1",
+    "properties": {
+      "steps": [
+        "Log in Windows PC",
+        "Open Start Menu",
+        "Select 'My useless application'",
+        "Verify application is started"
+      ],
+      "automation": true
+    }
+  },
+  "2": {
+    "id": 2,
+    "name": "Verify user can click in application",
+    "url": "https://testifactory/cases/2",
+    "properties": {
+      "steps": [
+        "Click inside application",
+        "Click on menu bar",
+        "Click on toolbar",
+        "Verify each click did not do anything"
+      ],
+      "automation": true
+    }
+  },
+  "3": {
+    "id": 3,
+    "name": "Verify user can close an application",
+    "url": "https://testifactory/cases/3",
+    "properties": {
+      "steps": [
+        "Click 'x' on title bar",
+        "Click 'Exit' in menu 'File'",
+        "Type 'Alt+F4",
+        "Verify each method will close application"
+      ],
+      "automation": false
+    }
+  }
+}
